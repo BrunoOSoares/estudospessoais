@@ -1,0 +1,2 @@
+# estudospessoais
+git para praticar
