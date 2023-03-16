@@ -1,3 +1,6 @@
-print("Estudar agora.")
+numero = int(input("Insira um numero: "))
 
-print("Tem que ser agora")
+if numero % 2 == 0:
+   print("O numero {} é par".format(numero))
+else:
+    print("O numero {} é impar".format(numero))
