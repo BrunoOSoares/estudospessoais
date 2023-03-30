@@ -26,7 +26,6 @@ if operacao == 'soma':
             break
         else:
             print("Você errou o teste!")
-            tentativa += 1
             resultado = int(input("Digite o resultado do teste: "))
               
        
@@ -43,7 +42,6 @@ elif operacao == 'sub':
             break
         else:
             print("Você errou o teste!")
-            tentativa += 1
             resultado = int(input("Digite o resultado do teste: "))
     
     
@@ -59,7 +57,6 @@ elif operacao == 'mult':
             break
         else:
             print("Você errou o teste!")
-            tentativa += 1
             resultado = int(input("Digite o resultado do teste: "))
         
     
@@ -75,7 +72,6 @@ elif operacao == 'div':
             break
         else:
             print("Você errou o teste!")
-            tentativa += 1
             resultado = float(input("Digite o resultado do teste: "))
                         
 if tentativa > 3:
