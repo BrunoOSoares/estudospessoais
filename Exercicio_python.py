@@ -4,8 +4,8 @@ import random
 
 numero1 = random.randrange(1,20)
 numero2 = random.randrange(1,20)
-numerodiv1 = random.randrange(2,20,2)
-numerodiv2 = random.randrange(2,10,2)
+numerodiv1 = random.randrange(1,20)
+numerodiv2 = random.randrange(1,20)
 tentativa = 0
  
 print('---------------- MATEMATICAMENTE GAME---------------\n')
@@ -27,9 +27,7 @@ if operacao == 'soma':
         else:
             print("Você errou o teste!")
             resultado = int(input("Digite o resultado do teste: "))
-              
-       
-    
+
 elif operacao == 'sub':  
     sub = numero1 - numero2
     print(f"O teste é a subtração de {numero1} - {numero2}")
@@ -43,8 +41,7 @@ elif operacao == 'sub':
         else:
             print("Você errou o teste!")
             resultado = int(input("Digite o resultado do teste: "))
-    
-    
+            
 elif operacao == 'mult': 
     mult = numero1 * numero2
     print(f"O teste é a multiplicação de {numero1} * {numero2}")
@@ -58,10 +55,9 @@ elif operacao == 'mult':
         else:
             print("Você errou o teste!")
             resultado = int(input("Digite o resultado do teste: "))
-        
     
 elif operacao == 'div':
-    div = numerodiv1 / numerodiv2
+    div = round(numerodiv1 / numerodiv2 , 2)
     print(f"O teste é a divisão de {numerodiv1} / {numerodiv2}")
     resultado = float(input("Digite o resultado do teste: "))
     
@@ -76,10 +72,3 @@ elif operacao == 'div':
                         
 if tentativa > 3:
     print("Acabou suas chances :(")   
-    
-
-    
-    
-    
-
-    
