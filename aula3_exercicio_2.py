@@ -17,6 +17,6 @@ try:
     elif hora_atual >=18 and hora_atual <=23:
         print("Boa noite")
     else:
-        print("Insira um horario valido")
+        print("Horario desconhecido")
 except:
     print("Insira um horario valido")
