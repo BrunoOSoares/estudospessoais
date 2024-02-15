@@ -45,7 +45,7 @@ while True:
     
     if escolha == 'l' and item in lista:
         os.system('cls')
-        for i, valor in enumerate(lista):
+        for i, valor in enumerate(lista, start=1):
             print(i,valor)
         continue
     else:
